@@ -1,0 +1,41 @@
+{
+  "name": "plum-fixture-generator",
+  "description": "Generates fixtures by scanning the KSS in your stylesheets.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/plum-css/plum-fixture-generator",
+  "author": {
+    "name": "Jason Bellamy",
+    "email": "j@sonbellamy.com",
+    "url": "http://jasonbellamy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plum-css/plum-fixture-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plum-css/plum-fixture-generator/issues"
+  },
+  "license": "MIT",
+  "main": "lib/generator",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "3.1.2"
+  },
+  "keywords": [
+    "plum",
+    "fixture",
+    "generator",
+    "kss"
+  ],
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "kss": "^2.0.2",
+    "mustache": "^2.0.0"
+  }
+}

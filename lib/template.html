@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>fixture</title>
+  <meta name="viewport" content="width=device-width">
+  {{#stylesheets}}
+    <link href="{{{url}}}" rel="stylesheet">
+  {{/stylesheets}}
+</head>
+<body>
+
+  <main>
+    {{#sections}}
+      <section class="section">
+        <h1>{{header}}</h1>
+        {{{description}}}
+        <div style="border: 1px solid #eee;">
+          {{{markup}}}
+        </div>
+      </section>
+    {{/sections}}
+  </main>
+
+  {{#javascripts}}
+    <script src="{{{url}}}"></script>
+  {{/javascripts}}
+</body>
+</html>
