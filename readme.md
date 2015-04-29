@@ -34,11 +34,13 @@ createFixtures( function( err, response ) {
 
 ### fixtureGenerator( options )
 
-Name   | Type     | Argument     | Description
--------|----------|--------------|------------
-path   | `string` | `<required>` | the path of the file to be modified.
+Name                | Type     | Argument     | Description
+--------------------|----------|--------------|------------
+options.files       | `array`  | `<required>` | files and/or directories of stylesheets to parse.
+options.template    | `string` | `<optional>` | path of the template to use for fixtures.
+options.destination | `string` | `<optional>` | path where the compiled fixtures should be saved.
 
-#### callback( error, results )
+#### callback( error, response )
 
 Name     | Type       | Argument     | Description
 ---------|------------|--------------|------------
