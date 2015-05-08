@@ -1,8 +1,8 @@
 {
-  "name": "plum-fixture-generator",
-  "description": "Generates fixtures by scanning the KSS in your stylesheets.",
+  "name": "plum-fixture",
+  "description": "Parses your PLUM stylesheets for KSS meta-data and builds HTML fixtures.",
   "version": "0.0.1",
-  "homepage": "https://github.com/plum-css/plum-fixture-generator",
+  "homepage": "https://github.com/plum-css/plum-fixture",
   "author": {
     "name": "Jason Bellamy",
     "email": "j@sonbellamy.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/plum-css/plum-fixture-generator.git"
+    "url": "https://github.com/plum-css/plum-fixture.git"
   },
   "bugs": {
-    "url": "https://github.com/plum-css/plum-fixture-generator/issues"
+    "url": "https://github.com/plum-css/plum-fixture/issues"
   },
   "license": "MIT",
   "main": "lib/generator",
