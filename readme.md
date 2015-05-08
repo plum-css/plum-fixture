@@ -1,11 +1,11 @@
-# plum-fixture-generator [![Build Status](https://travis-ci.org/plum-css/plum-fixture-generator.png?branch=master)](https://travis-ci.org/plum-css/plum-fixture-generator)
+# plum-fixture [![Build Status](https://travis-ci.org/plum-css/plum-fixture.png?branch=master)](https://travis-ci.org/plum-css/plum-fixture)
 
-> Parses your PLUM stylesheets for KSS meta-data and builds fixtures for use in regression testing.
+> Parses your PLUM stylesheets for KSS meta-data and builds HTML fixtures.
 
 
 ## Getting Started
 
-- Install with [NPM](https://www.npmjs.org/) - `npm install --save plum-fixture-generator`
+- Install with [NPM](https://www.npmjs.org/) - `npm install --save plum-fixture`
 
 
 ## Usage
