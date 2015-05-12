@@ -11,16 +11,14 @@
 ## Usage
 
 ```javascript
-var fixtureGenerator = require( 'plum-fixture-generator' );
+var fixture = require( 'plum-fixture' );
 
 var options = {
-  files: [ 'modules/', 'units/', 'pages/' ]
+  files: [ 'modules/', 'units/', 'pages/' ],
+  destination: 'path/to/save/fixtures/to'
 };
 
-
-var createFixtures = fixtureGenerator( options );
-
-createFixtures( function( err, response ) {
+fixture( options, function( err, response ) {
   if ( err ) {
     return err;
   }
@@ -32,7 +30,7 @@ createFixtures( function( err, response ) {
 
 ## API
 
-### fixtureGenerator( options )
+### fixture( options )
 
 Name                | Type     | Argument     | Description
 --------------------|----------|--------------|------------
