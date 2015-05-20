@@ -14,6 +14,7 @@
 var fixture = require( 'plum-fixture' );
 
 var options = {
+  stylesheets: ['paths/to/compiled/stylesheets'],
   files: [ 'modules/', 'units/', 'pages/' ],
   destination: 'path/to/save/fixtures/to'
 };
@@ -34,7 +35,8 @@ fixture( options, function( err, response ) {
 
 Name                | Type     | Argument     | Description
 --------------------|----------|--------------|------------
-options.files       | `array`  | `<required>` | files and/or directories of stylesheets to parse.
+options.stylesheets | `array`  | `<required>` | paths to the compiled stylesheets to inject into the fixtures.
+options.files       | `array`  | `<required>` | files and/or directories of stylesheets to parse kss meta-data from.
 options.template    | `string` | `<optional>` | path of the template to use for fixtures.
 options.destination | `string` | `<optional>` | path where the compiled fixtures should be saved.
 
