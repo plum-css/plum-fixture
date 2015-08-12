@@ -1,7 +1,7 @@
 {
   "name": "plum-fixture",
   "description": "Parses your PLUM stylesheets for KSS meta-data and builds HTML fixtures.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://github.com/plum-css/plum-fixture",
   "author": {
     "name": "Jason Bellamy",
@@ -24,6 +24,7 @@
     "test": "mocha"
   },
   "devDependencies": {
+    "cheerio": "^0.19.0",
     "mocha": "*",
     "should": "3.1.2"
   },
