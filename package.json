@@ -36,6 +36,7 @@
   ],
   "dependencies": {
     "bluebird": "^2.9.24",
+    "fs-extra": "^0.23.1",
     "kss": "^2.0.2",
     "mustache": "^2.0.0"
   }

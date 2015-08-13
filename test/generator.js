@@ -14,12 +14,6 @@ describe( "fixture", function () {
     destination: 'test/tmp'
   };
 
-  beforeEach(function() {
-    if (!fs.existsSync('test/tmp')) {
-      fs.mkdirSync('test/tmp');
-    }
-  });
-
   it('should create the fixture file', function(done) {
     fixture(options, function(err, res) {
       should(res).startWith('PLUM fixture(s) successfully created');
